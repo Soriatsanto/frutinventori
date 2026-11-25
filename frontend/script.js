@@ -1,7 +1,7 @@
 // Backend API address.
 // "/fruits" works when the page is opened from the FastAPI server (http://127.0.0.1:8000).
 // If you open the HTML with Live Server, use: "http://127.0.0.1:8000/fruits"
-const API_URL = "http://127.0.0.1:8000/fruits";
+const API_URL = "https://frutinventori.onrender.com//fruits";
 
 // null = adding a new fruit, a string = editing that SKU
 let editingSku = null;
